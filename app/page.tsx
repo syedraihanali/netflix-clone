@@ -1,10 +1,10 @@
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
     <main>
-      <h1 className='text-red font-bold'>
-        Hello World!!
-      </h1>
+      <Button>Hello World</Button>
     </main>
   )
 }
+
